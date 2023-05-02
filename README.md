@@ -16,6 +16,11 @@ This is a laravel 10 project and requires PHP 8.1 minimum to run correctly (We r
 composer install
 ```
 - Create a database within your local environment
+- Copy env.example and rename to .env and apply database configuration as needed.
+- Create a new APP KEY using the below artisan command and apply this to your env file.
+```
+  php artisan key:generate --show
+```
 - Add your database credentials to the .env file
 - Run the following command
 ```
