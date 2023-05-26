@@ -2,9 +2,9 @@ This is a laravel 10 project and requires PHP 8.1 minimum to run correctly (We r
 
 ---
 
-- Before doing anything please **create an initial commit** in push to new repository named **lgh-technical** in your personal github account.
+- Before doing anything please **create an initial commit** and push to new repository named **lgh-technical** in your personal github account.
 - Make commits and pushes as often as you feel the need to.
-- Ensure your final commit is on or before the given close time provided to you (5 hours from providing the repository to you).
+- Ensure your final commit is on or before the given close time provided to you (normally 2.5 hours from providing the repository to you).
 - Complete as much as you can.
 
 ---
@@ -16,7 +16,7 @@ This is a laravel 10 project and requires PHP 8.1 minimum to run correctly (We r
 composer install
 ```
 - Create a database within your local environment
-- Copy the env.example file and rename to .env and apply database configuration as needed.
+- Copy the env.example file and rename to .env and apply your database configuration as needed.
 - Create a new APP KEY using the below artisan command and apply this to your env file.
 ```
   php artisan key:generate --show
@@ -46,10 +46,11 @@ php artisan lgh:install
 
 ## Notes:
 
-- Most the internal applications we maintain utilize the jQuery library and many plugins OR AlpineJs/Livewire.
-- You may use jQuery, raw javascript or AlpineJs/Livewire. For tabular data, please use the DataTables plugin (https://datatables.net/)
+- Most of the internal applications we maintain utilize the jQuery library and many plugins OR AlpineJs/Livewire.
+- You may use jQuery, raw javascript or AlpineJs/Livewire. 
+- For tabular data, please use the DataTables plugin (https://datatables.net/)
 - You may use any other 3rd party packages, libraries and/or css/js frameworks of your choice to complete the task.
-- Layouts, fonts, colour schemes if any are your choice.
+- Layouts, fonts, colour schemes if any, are your choice.
 - No Models or Controllers have been created. This has been left to your decision.
 - No Routes have been defined.
 
