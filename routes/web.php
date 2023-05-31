@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\orderReport;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/charts', [orderReport::class, 'chartData']);
+/*Route::get('/charts', function () {
+    return view('charts',['chartData' => ChartData]);
+});*/
+
+Route::get('test', 'test@build');
